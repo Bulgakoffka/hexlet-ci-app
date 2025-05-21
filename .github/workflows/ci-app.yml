@@ -15,7 +15,10 @@ jobs:
       # run – произвольная bash-команда
       - run: 
           make setup
-          needs:
-            make test
-            make lint
+  test:
+    needs: build
+    steps:
+      - run:
+          make test
+          make lint
           
