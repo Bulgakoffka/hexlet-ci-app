@@ -1,7 +1,7 @@
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
-
+     [![ci-app](https://github.com/Bulgakoffka/hexlet-ci-app/actions/workflows/ci-app.yml/badge.svg)](https://github.com/Bulgakoffka/hexlet-ci-app/actions/workflows/ci-app.yml)
 ## System requirements
 
 * NodeJS >= 18
