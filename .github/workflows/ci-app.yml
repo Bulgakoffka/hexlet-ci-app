@@ -15,11 +15,6 @@ jobs:
       # run – произвольная bash-команда
       - run: 
           make setup
-  test:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - run:
           make test
           make lint
           
