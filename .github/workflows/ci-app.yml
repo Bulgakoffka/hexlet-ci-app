@@ -12,6 +12,12 @@ jobs:
       # экшен — выполняет какую-то задачу
       # checkout — клонирует репозиторий
       - uses: actions/checkout@v4
+      # setup-node – устанавливает Node
+      - uses: actions/setup-node@v4
+        with:
+          # node-version - следим за версией Node
+          node-version: '18.x'
+          cache: 'npm'
       # run – произвольная bash-команда
       - run: 
           make setup
